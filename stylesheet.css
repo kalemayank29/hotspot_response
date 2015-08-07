@@ -2,8 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0;
-  background-color: #f1f1f1; }
+  margin: 0; }
 
 * {
   box-sizing: border-box; }
@@ -18,9 +17,30 @@ h5 {
   text-align: center;
   margin: 0; }
 
-p, li, ul {
+p, li, ul, a, div, header, nav {
   margin: 0;
   padding: 0;
   line-height: 1.4; }
+
+header {
+  width: 100%;
+  background-color: #EEEEEE;
+  color: #222222;
+  padding: 25px;
+  padding-bottom: 50px; }
+
+.left-nav {
+  float: left; }
+  .left-nav a {
+    padding-right: 0px;
+    padding-left: 0px; }
+  .left-nav img {
+    vertical-align: top;
+    position: relative;
+    top: -7px; }
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto; }
 
 /*# sourceMappingURL=stylesheet.css.map */
