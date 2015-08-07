@@ -1,11 +1,12 @@
 // stylesheet.sass
+$nav-back: #EEEEEE
+$nav-color: #222222
 
 html, body
 	width: 100%
 	height: 100%
 	padding: 0
 	margin: 0
-	background-color: #f1f1f1
 
 *
 	box-sizing: border-box
@@ -18,7 +19,28 @@ h5
 	font-weight: normal
 	text-align: center
 	margin: 0
-p, li, ul
+p, li, ul, a, div, header, nav
 	margin: 0
 	padding: 0
 	line-height: 1.4
+header
+	width: 100%
+	background-color: $nav-back
+	color: $nav-color
+	padding: 25px
+	padding-bottom: 50px
+
+.left-nav
+	float: left
+	a
+		padding-right: 0px
+		padding-left: 0px
+
+	img
+		vertical-align: top
+		position: relative
+		top: -7px
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+	width: 70%
+	margin: auto
